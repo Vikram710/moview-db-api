@@ -1,0 +1,103 @@
+body{
+    margin:0px;
+    text-align: center;
+    font-family:Helvetica;
+  
+  }
+  nav{
+      text-align:left;
+      width: 100%;
+      background:#333; 
+      padding-right: 2%;
+      height:80px;
+      position: fixed;
+    }
+    img{
+      height:285px;
+      padding:10px;
+    }
+   
+  div.head{
+    background:#d9d9d9;
+    text-align:left;
+  }
+  h2{
+    margin-left:10px;
+  }
+    
+  div.logo {
+      width: 13%;
+      height:65px;
+      float: left;
+      text-align: center;
+      font-size:25px;
+      margin-top:5px;
+      margin-left:10px;
+      padding-left: 2%;
+      background:white;
+      background-image: url("logo.jpg");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  
+  li {
+      margin-top:5px;
+      margin-left:10px;
+      list-style-type: none;
+      display: inline-block;
+      padding:10px;
+    }
+  li:hover {
+      background: tomato;
+      color: #fff;
+    }
+  
+  a{
+      text-decoration: none;
+      color:white;
+  }
+  div.form{
+      float:right;
+      margin-top:-53px;
+  }
+  
+  button{
+      background:#333;
+      color:white;
+      border:0px;
+      padding:10px;
+      font-size:15px;
+      margin-right:10px;
+  }
+  button:hover{
+      background:tomato;
+  }
+    
+  input{
+    padding:10px;
+    margin-bottom:10px;
+    width:230px;
+  }
+  input[type=submit]{
+    background:#333;
+    color:white;
+    border:0px;
+    padding:10px;
+    font-size:15px;
+    margin-right:10px;
+    width:auto;
+  }
+  input[type=submit]:hover{
+    background:tomato;
+  }
+  li.name{
+    float:right;
+    margin-right:80px;
+    font:26px;
+    color:white;
+  }
+  li.name:hover{
+    background:#333;
+  }
+    
+  
